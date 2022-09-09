@@ -1,4 +1,4 @@
-//window popup that says hello world//
+//window popup that says hello world!//
 window.alert("Hello World!");
 //print hello again on page//
 document.write("Hello Again!");
