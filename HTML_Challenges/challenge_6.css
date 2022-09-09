@@ -1,0 +1,11 @@
+.row {
+    display: flex;
+}
+
+.column{
+    flex: 0 0 20%;
+    float:left;
+    
+    color: blue;
+    height: 250px;
+}

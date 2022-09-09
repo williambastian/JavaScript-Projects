@@ -1,0 +1,73 @@
+.container {
+    position:relative;
+    text-align: center;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:x-large;
+    -webkit-text-stroke: 1px black;
+}
+
+.topLeft {
+    position: absolute;
+    top: 16px;
+    left: 8px;
+
+}
+
+.topCenter {
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.topRight {
+    position: absolute;
+    top: 16px;
+    right: 8px;    
+}
+
+.centerLeft {
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    transform: translate(0, -50%);
+    
+}
+
+.centerText {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%)
+    
+}
+
+.centerRight {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translate(0, -50%);
+    
+}
+
+.bottomLeft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.bottomCenter {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    
+}
+
+.bottomRight {
+    position: absolute;
+    bottom: 16px;
+    right: 8px; 
+    
+}

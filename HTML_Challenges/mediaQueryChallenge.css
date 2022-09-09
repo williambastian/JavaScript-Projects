@@ -1,0 +1,10 @@
+p {
+    background-color: bisque;
+}
+
+@media screen and (max-width: 600px) {
+    p {
+        background-color:blue;
+        color: white;
+    }
+}
